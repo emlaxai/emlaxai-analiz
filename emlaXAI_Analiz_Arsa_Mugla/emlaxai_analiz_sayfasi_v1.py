@@ -80,8 +80,8 @@ html_content = html_content.replace("YOUR_API_KEY_HERE", api_key)
 html(html_content, height=530, width=1800)
 
 # --------------------- 📊 ANALİZ ---------------------
-s_df = pd.read_csv("emlaXAI_Analiz_Arsa_Mugla/mugla_satilik_arsa.csv")
-e_df = pd.read_csv("emlaXAI_Analiz_Arsa_Mugla/mugla_ilceler_arsa_fiyatlari.csv")
+s_df = pd.read_csv("mugla_satilik_arsa.csv")
+e_df = pd.read_csv("mugla_ilceler_arsa_fiyatlari.csv")
 
 s_fiyat_col = "fiyat"
 s_m2_col = "m2"
