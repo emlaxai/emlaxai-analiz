@@ -69,7 +69,7 @@ with open("emlaXAI_Analiz_Arsa_Muğla/googlemaps_heatmap.html", "r", encoding="u
 html(html_content, height=530, width=1800)
 
 # --------------------- 📊 ANALİZ ---------------------
-s_df = pd.read_csv("mugla_satilik_arsa.csv")
+s_df = pd.read_csv("emlaXAI_Analiz_Arsa_Muğla/mugla_satilik_arsa.csv")
 e_df = pd.read_csv("mugla_ilceler_arsa_fiyatlari.csv")
 
 s_fiyat_col = "fiyat"
