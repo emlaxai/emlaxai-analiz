@@ -70,8 +70,7 @@ import os
 api_key = os.getenv("GOOGLE_MAPS_API_KEY")
 
 # HTML dosyasını oku
-with open("emlaXAI_Analiz_Arsa_Mugla/googlemaps_heatmap.html", "r", encoding="utf-8") as f:
-    html_content = f.read()
+with open("googlemaps_heatmap.html", "r", encoding="utf-8") as f:
 
 # HTML içindeki placeholder'ı gerçek API anahtarıyla değiştir
 html_content = html_content.replace("YOUR_API_KEY_HERE", api_key)
