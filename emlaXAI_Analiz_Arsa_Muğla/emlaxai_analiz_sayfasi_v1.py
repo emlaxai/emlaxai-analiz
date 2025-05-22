@@ -64,7 +64,7 @@ if ara and il == "Muğla" and emlak_tipi == "Arsa" and durum == "Satılık":
 
 
 # --------------------- 📍 HARİTA ---------------------
-with open("googlemaps_heatmap.html", "r", encoding="utf-8") as f:
+with open("emlaXAI_Analiz_Arsa_Muğla/googlemaps_heatmap.html", "r", encoding="utf-8") as f:
     html_content = f.read()
 html(html_content, height=530, width=1800)
 
